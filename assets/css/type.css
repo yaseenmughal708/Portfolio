@@ -428,13 +428,13 @@ span {
 
 @keyframes abcd {
   0% {
-    transform: translatex(0);
+    transform: translatey(0);
   }
   50% {
-    transform: translatex(-2.4rem);
+    transform: translatey(-2.4rem);
   }
   0% {
-    transform: translatex(0);
+    transform: translatey(0);
   }
 }
 
@@ -595,6 +595,13 @@ span {
   font-size: 1.7rem;
   margin: 1rem 0 3rem;
 }
+ /* ____------------media cccccccccc---- */
+ @media screen and (max-width: 640px){
+  .services-contanier .services-box{
+    width: 92%;
+    
+  }
+ }
 
 /* portfolio section design */
 
