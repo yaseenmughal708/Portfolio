@@ -769,15 +769,13 @@ span {
   margin: 1rem auto;
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.contact form .input-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.contact form .input-box input,
+
+.contact form  input,
 .contact form textarea {
   width: 100%;
   padding: 1.5rem;
@@ -788,7 +786,7 @@ span {
   margin: 0.7rem 0;
 }
 
-.contact form .input-box input {
+.contact form  input {
   width: 49%;
 }
 
@@ -800,6 +798,12 @@ span {
 .contact form .btn {
   margin-top: 2rem;
   cursor: pointer;
+  margin: auto;
+  margin-top: 10px;
+  background: var(--main-color);
+  width: 200px;
+  border-radius: 25px;
+  color: black;
 }
 @media screen and (max-width: 350px) {
     .contact form .input-box input{
