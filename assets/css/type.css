@@ -94,16 +94,17 @@ nav .hamBurger{
 
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 0 ;
+  left: 0 ;
+  width: 100% ;
   padding: 2rem 110px;
   background: var(--bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 1;
   height: 80px;
+  /* overflow: hidden; */
 
   /* display: flex;
     width: 100%;
@@ -131,9 +132,8 @@ nav .hamBurger{
 .header nav {
   display: flex;
   justify-content: space-between;
-  
   align-items: center;
-  gap: 40px;
+  /* gap: 40px; */
   transition: 0.5s ease-in-out;
 }
 
@@ -162,6 +162,7 @@ nav a.active {
 
 .header .top {
   top: 0 !important;
+  z-index: 999999;
 }
 .header .cross {
   display: none;
@@ -184,8 +185,9 @@ nav a.active {
     background-color: black;
     width: 100%;
     left: 0;
-    top: -600%;
-    z-index: 999;
+    top: -900%;
+    height: 300px;
+    z-index: 999999 !important;
     flex-direction: column;
     padding: 20px;
     padding-top: 50px;
@@ -224,6 +226,8 @@ nav a.active {
   margin-top: 90px;
   flex-wrap: wrap;
   padding: 100px 0;
+  width: 100%;
+  overflow: hidden;
 }
 .home-content h3 {
   font-size: 3.2rem;
@@ -552,6 +556,8 @@ span {
 /* sevices section design */
 .services {
   padding-top: 90px;
+  max-width: 100%;
+  overflow: hidden;
 }
 .services h2 {
   margin-bottom: 5rem;

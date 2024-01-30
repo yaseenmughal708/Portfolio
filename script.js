@@ -5,7 +5,7 @@ let hamBurger = document.getElementById('hamBurger')
 let navbar = document.getElementById('navbar')
 
 hamBurger.addEventListener('click' , function(){
-    return navbar.classList.add('top')
+  navbar.classList.add('top')
 } )
 
 cross.addEventListener('click' , function(){
