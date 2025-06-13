@@ -264,6 +264,12 @@ span {
   /* padding: 5px; */
   padding-top: 32px;
 }
+@media screen and (max-width: 1000px) {
+  .home-img img {
+    object-position: 0px 10px;
+    /* padding: 5px; */
+  }
+}
 @keyframes abc {
   0% {
     transform: translateY(0);
@@ -439,6 +445,13 @@ span {
   /* padding: 5px; */
   padding-top: 32px;
 }
+@media screen and (max-width: 1000px) {
+  .about-img img {
+    object-position: 0px 10px;
+    /* padding: 5px; */
+  }
+}
+
 
 @keyframes abcd {
   0% {
