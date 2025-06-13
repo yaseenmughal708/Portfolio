@@ -257,8 +257,13 @@ span {
   background: var(--main-color);
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 80%, 50% 100%, 0 80%);
   animation: abc 4s ease-in-out infinite;
+  /* padding-top: 20px; */
 }
-
+.home-img img {
+  object-fit: cover;
+  /* padding: 5px; */
+  padding-top: 32px;
+}
 @keyframes abc {
   0% {
     transform: translateY(0);
@@ -428,6 +433,11 @@ span {
   background: var(--main-color);
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 80%, 50% 100%, 0 80%);
   animation: abcd 4s ease-in-out infinite;
+}
+.about-img img {
+  object-fit: cover;
+  /* padding: 5px; */
+  padding-top: 32px;
 }
 
 @keyframes abcd {
